@@ -10,7 +10,7 @@
 
 
 ※NBA_Boosting.ipynb 
-: 일단 Naive하게 접근해보기로 하였다. 내 git에 올려둔 final_nba_data.csv(5년치)로
+  : 일단 Naive하게 접근해보기로 하였다. 내 git에 올려둔 final_nba_data.csv(5년치)로
   간단하게 원 핫 인코딩, 타입을 int or float로 다 변환, 결측치 있는 행 제거만 한 이후에
   XGBOOST와 ADABOOST 모델에 별다른 튜닝없이 학습을 진행하였다.
   두 가지 CASE로 진행하였다.
