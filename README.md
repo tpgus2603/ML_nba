@@ -19,4 +19,34 @@
 
 ### 프로젝트 구조
 
-5가지 모델  선형 회귀, SVR(서포트 벡터 회귀), 랜덤 포레스트, 신경망, 부스팅의 5가지 인공지능 모델에 대한 코드 및 Nba사이트에서 데이터를 크롤링한 코드가 존재합니
+5가지 모델  선형 회귀, SVR(서포트 벡터 회귀), 랜덤 포레스트, 신경망, 부스팅의 5가지 인공지능 모델에 대한 코드 및 Nba사이트에서 데이터를 크롤링한 코드가 존재합니다.
+
+
+데이터 가공
+--
+![image](https://github.com/user-attachments/assets/8e801e3c-918b-4886-a7e9-f652ee0f3f55)
+
+
+데이터 전처리
+--
+
+1. 25가지의 stat (계약 전 약 2년치 평균)
+2. 계약 정보
+3. Position One-hot encoding 처리
+4. 경력 계산 (start - 계약 시작 연도)
+5. 계약 기간(contract_period) [end-start+1]
+
+결과
+--
+
+![image](https://github.com/user-attachments/assets/374ed484-009c-4f03-b2ca-1d196be71a3f)
+
+성능평가
+
+![image](https://github.com/user-attachments/assets/f97bc837-2488-40d6-aad2-2bc6a7b8eeff)
+
+결론
+--
+![image](https://github.com/user-attachments/assets/5816b85e-5cef-4ee9-a871-1c8183214f13)
+
+
